@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eperlan.Net", "Eperlan.Net\Eperlan.Net\Eperlan.Net.csproj", "{60017722-EB01-4C9B-B352-1A2218657BA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eperlan.Net", "Eperlan.Net\Eperlan.Net\Eperlan.Net.csproj", "{60017722-EB01-4C9B-B352-1A2218657BA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eperlan.Net.Client", "Eperlan.Net\Eperlan.Net.Client\Eperlan.Net.Client.csproj", "{745ED26C-6C12-408F-80E0-00F6739E8C6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eperlan.Net.Client", "Eperlan.Net\Eperlan.Net.Client\Eperlan.Net.Client.csproj", "{745ED26C-6C12-408F-80E0-00F6739E8C6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{38F94856-4E61-490B-AE6B-611DDE6A1903}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Packages.props = Directory.Packages.props
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

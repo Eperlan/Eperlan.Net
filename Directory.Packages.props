@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly">
+      <Version>8.0.3</Version>
+    </PackageVersion>
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Server">
+      <Version>8.0.3</Version>
+    </PackageVersion>
+    <PackageVersion Include="MudBlazor">
+      <Version>6.18.0</Version>
+    </PackageVersion>
+  </ItemGroup>
+</Project>
